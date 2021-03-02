@@ -1,0 +1,12 @@
+tasks:
+  - init: npm install
+    command: npm start
+ports:
+  - port: 8080
+    onOpen: open-browser
+image:
+  file: .gitpod.Dockerfile
+
+github:
+  prebuilds:
+    master: true
