@@ -10,3 +10,6 @@ image:
 github:
   prebuilds:
     master: true
+vscode:
+  extensions:
+    - vscode.npm@1.54.1:/AThKM/3ebmHR4rk85K6Gg==
